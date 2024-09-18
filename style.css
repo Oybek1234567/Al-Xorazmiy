@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    cursor: pointer;
+}
+.wrapper{
+    font-family: "Poppins", sans-serif;
+    color: white
+}
+/* Navbar */
+.navbar{
+    background-color: rgb(10, 10, 48);
+}
+.navbar_links{
+    display: flex;
+    padding: 20px 0;
+    gap: 10px;
+    justify-content: end;
+    margin-right: 10px;
+}
+/* Main */
+main{
+    background-color: rgb(79, 79, 197);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.header_text{
+    margin-top: 30px;
+}
+.header_text h1{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.header_text p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.header_hr{
+    position: absolute;
+    width: 30%;
+    border: 1px solid;
+    margin-top: 250px;
+}
+.about{
+    margin-top: 150px;
+}
+.about_title{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.about_text{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.about_hr{
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.news{
+    text-align: center;
+    margin-top: 30px;
+}
+.news_items{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.news_item{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(15, 15, 57);
+    border-radius: 20px;
+    padding: 10px;
+}
+.news_item img{
+    width: 100%;
+    border-radius: 20px;
+}
+.news_item p{
+    margin-top: 20px;
+}
+.news_item button{
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 7px 0;
+}
+.news_hr{
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+/* Contact */
+.contact{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    margin-top: 20px;
+    border: 2px dotted black;
+    padding: 10px;
+}
+.contact_title{
+    margin-bottom: 10px;
+}
+.contact label{
+    text-align: left;
+}
+.contact input, textarea{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact input {
+    height: 30px;
+}
+.contact textarea{
+    height: 200px;
+    resize: none;
+}
+.contact button{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 48);
+    padding: 7px;
+    border: none;
+}
+
+.footer {
+    background-color: inherit; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    width: 100%;  
+    position: relative;
+}
+
+.footer_text {
+    width: 70%; 
+    background-color: rgb(10, 10, 48);
+    text-align: center;
+    padding: 20px;
+}
